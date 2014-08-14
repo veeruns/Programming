@@ -1,0 +1,7 @@
+DEPENDENCIES
+  chef-training
+    path: .
+    metadata: true
+
+GRAPH
+  chef-training (0.1.0)
