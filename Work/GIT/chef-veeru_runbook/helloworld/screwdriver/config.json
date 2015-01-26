@@ -1,0 +1,26 @@
+{
+    "version": 2,
+    "shared": {
+        "notification_email": "YOUR_EMAIL",
+        "compilers": {
+            "cookbookversion": {
+                "compiler": "cookbookversion",
+                "config": {
+                    "type": "patch"
+                }
+            }
+        },
+        "build": {
+            "custom": {
+                "compile_commands": [
+                    "cookbookversion"
+                ]
+            }
+        }
+    },
+    "jobs": {
+        "component": {
+            "cookbook_organization": "YOUR_ORGANIZATION"
+        }
+    }
+}

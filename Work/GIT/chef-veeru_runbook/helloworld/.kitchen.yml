@@ -1,0 +1,25 @@
+---
+driver:
+  name: vagrant
+
+provisioner:
+  name: chef_solo
+
+platforms:
+  - name: helloworld
+    driver_config:
+      require_chef_omnibus: true
+      box: ylinux6
+      box_url: http://yo/ylinux6-vagrant-vbox
+      customize:
+        memory: 1024
+        cpus: 1
+
+suites:
+  - name: default
+    driver_config:
+      network:
+        - ["private_network", {ip: "33.33.33.10"}]
+    run_list:
+      - recipe[helloworld::default]
+    attributes:
