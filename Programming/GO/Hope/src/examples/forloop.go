@@ -5,9 +5,11 @@ import (
 )
 
 func main() {
-	i := 1
-	for i < 10 {
-		fmt.Printf("Hello %d\n", i)
-		i++
+	for i := 1; i < 10; i++ {
+		if i%2 == 0 {
+			fmt.Printf("Hello %d (Even) \n", i)
+		} else {
+			fmt.Printf("Hello %d (Odd) \n", i)
+		}
 	}
 }
