@@ -1,0 +1,1174 @@
+Script started on Wed May 13 15:05:39 2015
+bash-3.2$ exec '/Applications/Julia-0.3.8.app/Contents/Resources/julia/bin/julia'[C[C[C[C[C[C[C[C[C[C[K.[Kpwd
+/Users/veeru/Programming/GO
+bash-3.2$ ./pintail -v -d messaging.iris show-domain
+domain:
+    name: messaging.iris
+    roles:
+        - name: messaging.iris:role.admin
+          members: [yby.roth, yby.pearish, yby.boynton, yby.jknobel]
+        - name: messaging.iris:role.user
+          members: []
+        - name: messaging.iris:role.superuser
+          members: []
+        - name: messaging.iris:role.vip_admin
+          members: [yby.jknobel, yby.beecher, yby.chays, yby.cmohan, yby.drifter, yby.edasseri, yby.hallight, yby.ignatb, yby.jagd, yby.jakilpat, yby.jamesali, yby.jsummers, yby.jvangaas, yby.kareem, yby.kkevin, yby.madhuj, yby.mcgowane, yby.nevin, yby.pks, yby.shailv, yby.skarale, yby.spujani, yby.ssaroha, yby.stoneyu, yby.sutha, yby.thorve, yby.vgade, yby.wraney, yby.veeru]
+        - name: messaging.iris:role.sys_network_super_vip_admin
+          trust: sys.network
+    policies:
+        - name: messaging.iris:policy.admin
+          assertions:
+            - grant * to messaging.iris:role.admin on messaging.iris:*
+        - name: messaging.iris:policy.user
+          assertions:
+            - grant node_user to messaging.iris:role.user on messaging.iris:node.*
+        - name: messaging.iris:policy.superuser
+          assertions:
+            - grant node_sudo to messaging.iris:role.superuser on messaging.iris:node.*
+        - name: messaging.iris:policy.vip_admin
+          assertions:
+            - grant * to messaging.iris:role.vip_admin on messaging.iris:*
+        - name: messaging.iris:policy.sys_network_super_vip_admin
+          assertions:
+            - grant * to messaging.iris:role.sys_network_super_vip_admin on messaging.iris:*
+
+bash-3.2$ ./pintail -v -d messaging.iris show-domain
+
+
+domain:
+    name: messaging.iris
+    roles:
+        - name: messaging.iris:role.admin
+          members: [yby.roth, yby.pearish, yby.boynton, yby.jknobel]
+        - name: messaging.iris:role.user
+          members: []
+        - name: messaging.iris:role.superuser
+          members: []
+        - name: messaging.iris:role.vip_admin
+          members: [yby.jknobel, yby.beecher, yby.chays, yby.cmohan, yby.drifter, yby.edasseri, yby.hallight, yby.ignatb, yby.jagd, yby.jakilpat, yby.jamesali, yby.jsummers, yby.jvangaas, yby.kareem, yby.kkevin, yby.madhuj, yby.mcgowane, yby.nevin, yby.pks, yby.shailv, yby.skarale, yby.spujani, yby.ssaroha, yby.stoneyu, yby.sutha, yby.thorve, yby.vgade, yby.wraney, yby.veeru]
+        - name: messaging.iris:role.sys_network_super_vip_admin
+          trust: sys.network
+    policies:
+        - name: messaging.iris:policy.admin
+          assertions:
+            - grant * to messaging.iris:role.admin on messaging.iris:*
+        - name: messaging.iris:policy.user
+          assertions:
+            - grant node_user to messaging.iris:role.user on messaging.iris:node.*
+        - name: messaging.iris:policy.superuser
+          assertions:
+            - grant node_sudo to messaging.iris:role.superuser on messaging.iris:node.*
+        - name: messaging.iris:policy.vip_admin
+          assertions:
+            - grant * to messaging.iris:role.vip_admin on messaging.iris:*
+        - name: messaging.iris:policy.sys_network_super_vip_admin
+          assertions:
+            - grant * to messaging.iris:role.sys_network_super_vip_admin on messaging.iris:*
+
+bash-3.2$ 
+bash-3.2$ 
+bash-3.2$ 
+bash-3.2$ 
+bash-3.2$ 
+bash-3.2$ ./pintail -v -d messaging.iris show-domain
+
+domain:
+    name: messaging.iris
+    roles:
+        - name: messaging.iris:role.admin
+          members: [yby.roth, yby.pearish, yby.boynton, yby.jknobel, yby.veeru, yby.atanu]
+        - name: messaging.iris:role.user
+          members: []
+        - name: messaging.iris:role.superuser
+          members: []
+        - name: messaging.iris:role.vip_admin
+          members: [yby.jknobel, yby.beecher, yby.chays, yby.cmohan, yby.drifter, yby.edasseri, yby.hallight, yby.ignatb, yby.jagd, yby.jakilpat, yby.jamesali, yby.jsummers, yby.jvangaas, yby.kareem, yby.kkevin, yby.madhuj, yby.mcgowane, yby.nevin, yby.pks, yby.shailv, yby.skarale, yby.spujani, yby.ssaroha, yby.stoneyu, yby.sutha, yby.thorve, yby.vgade, yby.wraney, yby.veeru]
+        - name: messaging.iris:role.sys_network_super_vip_admin
+          trust: sys.network
+    policies:
+        - name: messaging.iris:policy.admin
+          assertions:
+            - grant * to messaging.iris:role.admin on messaging.iris:*
+        - name: messaging.iris:policy.user
+          assertions:
+            - grant node_user to messaging.iris:role.user on messaging.iris:node.*
+        - name: messaging.iris:policy.superuser
+          assertions:
+            - grant node_sudo to messaging.iris:role.superuser on messaging.iris:node.*
+        - name: messaging.iris:policy.vip_admin
+          assertions:
+            - grant * to messaging.iris:role.vip_admin on messaging.iris:*
+        - name: messaging.iris:policy.sys_network_super_vip_admin
+          assertions:
+            - grant * to messaging.iris:role.sys_network_super_vip_admin on messaging.iris:*
+
+bash-3.2$ 
+bash-3.2$ ./pintail -v -d messaging.iris show-domain[K[K[K[K[K[K[K[K[K[K[Kshow-domain
+domain:
+    name: messaging.iris
+    roles:
+        - name: messaging.iris:role.admin
+          members: [yby.roth, yby.pearish, yby.boynton, yby.jknobel, yby.veeru, yby.atanu]
+        - name: messaging.iris:role.user
+          members: []
+        - name: messaging.iris:role.superuser
+          members: []
+        - name: messaging.iris:role.vip_admin
+          members: [yby.jknobel, yby.beecher, yby.chays, yby.cmohan, yby.drifter, yby.edasseri, yby.hallight, yby.ignatb, yby.jagd, yby.jakilpat, yby.jamesali, yby.jsummers, yby.jvangaas, yby.kareem, yby.kkevin, yby.madhuj, yby.mcgowane, yby.nevin, yby.pks, yby.shailv, yby.skarale, yby.spujani, yby.ssaroha, yby.stoneyu, yby.sutha, yby.thorve, yby.vgade, yby.wraney, yby.veeru]
+        - name: messaging.iris:role.sys_network_super_vip_admin
+          trust: sys.network
+    policies:
+        - name: messaging.iris:policy.admin
+          assertions:
+            - grant * to messaging.iris:role.admin on messaging.iris:*
+        - name: messaging.iris:policy.user
+          assertions:
+            - grant node_user to messaging.iris:role.user on messaging.iris:node.*
+        - name: messaging.iris:policy.superuser
+          assertions:
+            - grant node_sudo to messaging.iris:role.superuser on messaging.iris:node.*
+        - name: messaging.iris:policy.vip_admin
+          assertions:
+            - grant * to messaging.iris:role.vip_admin on messaging.iris:*
+        - name: messaging.iris:policy.sys_network_super_vip_admin
+          assertions:
+            - grant * to messaging.iris:role.sys_network_super_vip_admin on messaging.iris:*
+
+bash-3.2$ ./pintail -v -d messaging.iris show-domain[K[K[K[K[K[K[K[K[K[Ket-org 
+bash-3.2$ pwd
+/Users/veeru/Programming/GO
+bash-3.2$ vi validator.pem
+7[?47h[?1h=[1;27r[m[H[2J[27;1H"validator.pem" [New File][>c[2;1H[1m[34m~                                                                                                                         [3;1H~                                                                                                                         [4;1H~                                                                                                                         [5;1H~                                                                                                                         [6;1H~                                                                                                                         [7;1H~                                                                                                                         [8;1H~                                                                                                                         [9;1H~                                                                                                                         [10;1H~                                                                                                                         [11;1H~                                                                                                                         [12;1H~                                                                                                                         [13;1H~                                                                                                                         [14;1H~                                                                                                                         [15;1H~                                                                                                                         [16;1H~                                                                                                                         [17;1H~                                                                                                                         [18;1H~                                                                                                                         [19;1H~                                                                                                                         [20;1H~                                                                                                                         [21;1H~                                                                                                                         [22;1H~                                                                                                                         [23;1H~                                                                                                                         [24;1H~                                                                                                                         [25;1H~                                                                                                                         [26;1H~                                                                                                                         [1;1H[m[27;1H[1m-- INSERT --[m[27;13H[K[1;1H-----BEGIN RSA PRIVATE KEY-----
+MIIEpAIBAAKCAQEAyt2JozGmwIpAgUHNNQ03lncU/zO6KwGQst0Wi8e+XkbRlRV1[2;65H[K[3;1HT6XDcCPa00R9EGOVKdpllH1d7RUh6Wb5R71y9ZcVmI0kqS3SpIOObolswmc8E7Uo[3;65H[K[4;1H+Vpvhs0boE0XuAEEclqK+AJvwiJdWFhAJb8aMlm3p2LlDcIj1nTGxi3tCWkOqe60[4;65H[K[5;1HRwAyNA/d0K0dYV75nU5kceGLeCrLnkt5+PBWS04f+LlKtLlOWlhaoiNgRzegycq7[5;65H[K[6;1Hb019t4pBt9ffa2A64Mx5pPTiSuBWxu3BpWDSx4P76dg0WUm+Jv/djLtVh53Z8Wmk[6;65H[K[7;1H+gMY2w0J1PEja4xZwM0uWjgx437dZa9RJpe/KQIDAQABAoIBABuzdpjvLbr65eYA[7;65H[K[8;1HiznkTSPhrN9QO+qlcxHJeMurgcYz22iFHpi6pN5KNxZEMuOrBXJKnTZSjCHUkeXi[8;65H[K[9;1HJsXyC6GXeN50332ugSXvxOI5J73ABQcX5Llv7Oy2U0BnZoa8tNO8o19MTeBvetmW[9;65H[K[10;1Ha2P8HWKkt5xGt8pSKTyeg4oKOWTgUgO3bWhyqVqHST6aedtyCYPZJ+iaDfeNBPJM[10;65H[K[11;1H/1mFFLaKxyIYuQPLX9wExVBZqGmFVZ7vLNVkql/2jIZhsbrfNNW4dcoGSjJCegqb[11;65H[K[12;1HoTicx6FdeCk5aKIkL7roTuefnU4kUaHfvz8nrdrFmX2jyN+h/R+38F/udz6bW44M[12;65H[K[13;1H657gE+UCgYEA/dz6p11mvttxd1IiqSizPeGsqHcbaBVUxKHthpRzMKaeXE2TWLmR[13;65H[K[14;1Ho7eBysTxE9fCyg6kQK4R+iDULI6jbgF7Aet5voUtL9dwbHbiIpH7e9SvECCoI6Sk[14;65H[K[15;1HI8qW/peleJG0d414IsnyDjFktz4ooBuffuGzuKOCEYoVs/yr7sQwkscCgYEAzJKr[15;65H[K[16;1HTOiumLNtHibIsEwgVbJYFFLTc94aIBCJRWSIo+UQ3T8TqZd6hWENvAdy/BpjRTOs[16;65H[K[17;1H79qQSCeprpvEj0M/8[17;18H[K[17;18H[1;26r[26;1H
+[1;27r[16;17H8TcUyH+GH+JErqMSLVuZSD2bPDUpQs7/qPnqjL59P82dpAIg
+cszcdmkjAjKftI+M1GouxN8qaC2gI5ATf8w6Lo8CgYBg2uqW6D/HGZpU1/V5bJnW[17;65H[K[18;1HRj/FlovSTjElRFKHQiQgr7FDriVFeKdkOyM95Z3E4FDlHmj0dHVPZS8OQO2BjvcL[18;65H[K[19;1HaHfuhIkU87Fk8Iaegevc9uxDzvHXh31IWob5Y4oyUgT0h/kJ7Np5J8cxUnnVfDSC[19;65H[K[20;1HCEK1c0ywvGpDXWeLlTajCQKBgQChgxLXr8VZLh/ydDBycEf/IMVFlnb3vdzmf+fA[20;65H[K[21;1H77SpoUqFQy2k8cF72LpdP4xa2gKSOlBJNkg/j4D6KGUxrqinKxOvkG82cRBEyN6r[21;65H[K[22;1HDOyiCnGrQVWIN6HFqTqzUBnW6+GQAVXZDUDqA+vt6kYI6mUHt6WhLYhvo8YRDck3[22;65H[K[23;1HVuiApQKBgQCGJgnhBclOjwgmY5Pz6TBVScQkGHQk0V9IiqFRXirJGPqUExiF2YAy[23;65H[K[24;1Hes2JUmRf9gooLLzuNSycF9PshgaP76QRHDLv3SEoA0+16Kak5OsfzaOC3gOZaahm[24;65H[K[25;1HX09zJC0Bb/VNogsYjRmosoCPbyL6OQt62UOxsJpPdxAXWL9rGi/FCQ==[25;57H[K[26;1H-----END RSA PRIVATE KEY-----[27;1H[K[26;29H
+:wq!"validator.pem" [New] 27L, 1679C written
+[?1l>[2J[?47l8bash-3.2$ ll
+bash: ll: command not found
+bash-3.2$ [4h(reverse-i-s[4learch)`':[C.': vi validator.pem/': ./pintail -v -d messaging.iris show-domain[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[4hp[4l[C[C[C[15Pbash-3.2$[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[K[K[K[K[K[K[K[K[K[Kset-org help
+
+organization:
+    name: messaging_iris
+    domain: messaging.iris
+    chefServer: https://chef.ops.yahoo.com/organizations/messaging_iris
+    validatorKey: __suppressed__
+
+bash-3.2$ 
+bash-3.2$ ./pintail -v -d messaging.iris set-org help[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Khelp
+usage: pintail [flags] command [params]
+ flags:
+   -z zms_url          Base URL of the ZMS server to use (default ZMS=https://zms.athens.yahoo.com:4443/zms/v1)
+   -b bondo_url        Base URL of the Bondo server to use (default: BONDO=https://bondo.athens.yahoo.com:4443/bondo/v1, use 'none' to disable bondo access)
+   -c chef_url         Base URL of the Chef server to use (default: CHEF_SERVER=https://chef.ops.yahoo.com)
+   -i identity         User or Service  identity to authenticate as (default=yby.veeru)
+   -d domain           The domain used for every command that takes a domain argument
+   -k                  Disable peer verification of SSL certificates.
+   -p profile          The profile used for every command that takes a profile argument
+   -s host:port        The SOCKS5 proxy to route requests through
+   -v                  Verbose mode. YRNs are included in output (default=false)
+   -debug              Debug mode. Generates debug NTokens instead of Bouncer (default=false)
+   -a auditRef         Audit Reference Token if auditing is required for domain
+
+ Domain commands:
+   list-domain [prefix]
+   show-domain [domain]
+   add-domain domain [admin ...]
+   import-domain domain [file.yaml [admin ...]] - no file means stdin
+   export-domain domain [file.yaml] - no file means stdout
+   delete-domain domain
+   use-domain [domain or domain#profile]
+
+ Organization commands:
+   show-org
+   set-org validator.pem [chefname]
+   delete-org
+
+ Environment commands:
+   list-env [profile]
+   show-env env
+   add-env env [profile]
+   delete-env env
+
+ Profile commands:
+   list-profile
+   show-profile [profile]
+   add-profile profile [site ...]
+   delete-profile profile
+   show-profile-users [profile]
+   show-profile-superusers [profile]
+   push-profile profile
+
+ Policy commands:
+   list-policy
+   show-policy policy
+   set-policy policy [assertion]
+   add-assertion policy assertion
+   delete-policy policy
+   show-access action resource [alt_domain [alt_identity]]
+
+ Role commands:
+   list-role
+   show-role role
+   add-delegated-role role trusted_domain
+   add-group-role role member [member ... ]
+   add-member group_role user_or_service [user_or_service ...]
+   delete-member group_role user_or_service [user_or_service ...]
+   delete-role role
+
+ Service commands:
+   list-services
+   show-service service
+   add-service service key_id identity_pubkey.pem|identity_key_ybase64
+   add-public-key service key_id identity_pubkey.pem|identity_key_ybase64
+   show-public-key service key_id
+   delete-public-key service key_id
+   delete-service service
+
+ Node commands:
+   list-nodetype
+   show-nodetype ntype
+   add-nodetype ntype runlist
+   delete-nodetype ntype
+   show-nodedef [env [nodetype]]
+   delete-node fqdn
+
+ Other commands:
+   version
+   repl
+
+
+bash-3.2$ ./pintail help-v -d messaging.iris set-org help[K[K[K[Kvalidator.pem 
+organization:
+    name: messaging_iris
+    domain: messaging.iris
+    chefServer: https://chef.ops.yahoo.com/organizations/messaging_iris
+    validatorKey: __suppressed__
+
+bash-3.2$ ./pintail -v -d messaging.iris set-org validator.pem [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Chelp[K
+usage: pintail [flags] command [params]
+ flags:
+   -z zms_url          Base URL of the ZMS server to use (default ZMS=https://zms.athens.yahoo.com:4443/zms/v1)
+   -b bondo_url        Base URL of the Bondo server to use (default: BONDO=https://bondo.athens.yahoo.com:4443/bondo/v1, use 'none' to disable bondo access)
+   -c chef_url         Base URL of the Chef server to use (default: CHEF_SERVER=https://chef.ops.yahoo.com)
+   -i identity         User or Service  identity to authenticate as (default=yby.veeru)
+   -d domain           The domain used for every command that takes a domain argument
+   -k                  Disable peer verification of SSL certificates.
+   -p profile          The profile used for every command that takes a profile argument
+   -s host:port        The SOCKS5 proxy to route requests through
+   -v                  Verbose mode. YRNs are included in output (default=false)
+   -debug              Debug mode. Generates debug NTokens instead of Bouncer (default=false)
+   -a auditRef         Audit Reference Token if auditing is required for domain
+
+ Domain commands:
+   list-domain [prefix]
+   show-domain [domain]
+   add-domain domain [admin ...]
+   import-domain domain [file.yaml [admin ...]] - no file means stdin
+   export-domain domain [file.yaml] - no file means stdout
+   delete-domain domain
+   use-domain [domain or domain#profile]
+
+ Organization commands:
+   show-org
+   set-org validator.pem [chefname]
+   delete-org
+
+ Environment commands:
+   list-env [profile]
+   show-env env
+   add-env env [profile]
+   delete-env env
+
+ Profile commands:
+   list-profile
+   show-profile [profile]
+   add-profile profile [site ...]
+   delete-profile profile
+   show-profile-users [profile]
+   show-profile-superusers [profile]
+   push-profile profile
+
+ Policy commands:
+   list-policy
+   show-policy policy
+   set-policy policy [assertion]
+   add-assertion policy assertion
+   delete-policy policy
+   show-access action resource [alt_domain [alt_identity]]
+
+ Role commands:
+   list-role
+   show-role role
+   add-delegated-role role trusted_domain
+   add-group-role role member [member ... ]
+   add-member group_role user_or_service [user_or_service ...]
+   delete-member group_role user_or_service [user_or_service ...]
+   delete-role role
+
+ Service commands:
+   list-services
+   show-service service
+   add-service service key_id identity_pubkey.pem|identity_key_ybase64
+   add-public-key service key_id identity_pubkey.pem|identity_key_ybase64
+   show-public-key service key_id
+   delete-public-key service key_id
+   delete-service service
+
+ Node commands:
+   list-nodetype
+   show-nodetype ntype
+   add-nodetype ntype runlist
+   delete-nodetype ntype
+   show-nodedef [env [nodetype]]
+   delete-node fqdn
+
+ Other commands:
+   version
+   repl
+
+
+bash-3.2$ ./pintail help[K[K-v -d messaging.iris set-org validator.pem [K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Khow-org
+organization:
+    name: messaging_iris
+    domain: messaging.iris
+    chefServer: https://chef.ops.yahoo.com/organizations/messaging_iris
+    validatorKey: __suppressed__
+
+bash-3.2$ ./pintail -v -d messaging.iris show-org[K[K[K[K[K[K[K[Klust[K[K[Kist-nodeype[K[K[K[K[K[K[K[K[K[K[K[Krepl
+[0;31mmessaging.iris> [0;0m[0;31mmessaging.iris> [0;0ms[0;31mmessaging.iris> [0;0msh[0;31mmessaging.iris> [0;0msho[0;31mmessaging.iris> [0;0mshow[0;31mmessaging.iris> [0;0mshow [0;31mmessaging.iris> [0;0mshow [1D[0;31mmessaging.iris> [0;0mshow-[0;31mmessaging.iris> [0;0mshow-o[0;31mmessaging.iris> [0;0mshow-or[0;31mmessaging.iris> [0;0mshow-org
+[0;34m[0;32morganization:
+    name: messaging_iris
+    domain: messaging.iris
+    chefServer: https://chef.ops.yahoo.com/organizations/messaging_iris
+    validatorKey: __suppressed__
+[0;0m
+[0;31mmessaging.iris> [0;0m[0;31mmessaging.iris> [0;0ms[0;31mmessaging.iris> [0;0msh[0;31mmessaging.iris> [0;0msho[0;31mmessaging.iris> [0;0mshow[0;31mmessaging.iris> [0;0mshow-[0;31mmessaging.iris> [0;0mshow-e[0;31mmessaging.iris> [0;0mshow-en[0;31mmessaging.iris> [0;0mshow-env[0;31mmessaging.iris> [0;0mshow-envi[0;31mmessaging.iris> [0;0mshow-envir[0;31mmessaging.iris> [0;0mshow-enviro[0;31mmessaging.iris> [0;0mshow-environ[0;31mmessaging.iris> [0;0mshow-environm[0;31mmessaging.iris> [0;0mshow-environme[0;31mmessaging.iris> [0;0mshow-environmen[0;31mmessaging.iris> [0;0mshow-environment
+[0;34m[0;31m *** Unrecognized command 'show-environment'. Type 'pintail' with no arguments to see usage information [0;0m
+[0;31mmessaging.iris> [0;0m[0;31mmessaging.iris> [0;0mh[0;31mmessaging.iris> [0;0mhe[0;31mmessaging.iris> [0;0mhel[0;31mmessaging.iris> [0;0mhelp
+[0;34m[0;32m Domain commands:
+   list-domain [prefix]
+   show-domain [domain]
+   add-domain domain [admin ...]
+   import-domain domain [file.yaml [admin ...]] - no file means stdin
+   export-domain domain [file.yaml] - no file means stdout
+   delete-domain domain
+   use-domain [domain or domain#profile]
+
+ Organization commands:
+   show-org
+   set-org validator.pem [chefname]
+   delete-org
+
+ Environment commands:
+   list-env [profile]
+   show-env env
+   add-env env [profile]
+   delete-env env
+
+ Profile commands:
+   list-profile
+   show-profile [profile]
+   add-profile profile [site ...]
+   delete-profile profile
+   show-profile-users [profile]
+   show-profile-superusers [profile]
+   push-profile profile
+
+ Policy commands:
+   list-policy
+   show-policy policy
+   set-policy policy [assertion]
+   add-assertion policy assertion
+   delete-policy policy
+   show-access action resource [alt_domain [alt_identity]]
+
+ Role commands:
+   list-role
+   show-role role
+   add-delegated-role role trusted_domain
+   add-group-role role member [member ... ]
+   add-member group_role user_or_service [user_or_service ...]
+   delete-member group_role user_or_service [user_or_service ...]
+   delete-role role
+
+ Service commands:
+   list-services
+   show-service service
+   add-service service key_id identity_pubkey.pem|identity_key_ybase64
+   add-public-key service key_id identity_pubkey.pem|identity_key_ybase64
+   show-public-key service key_id
+   delete-public-key service key_id
+   delete-service service
+
+ Node commands:
+   list-nodetype
+   show-nodetype ntype
+   add-nodetype ntype runlist
+   delete-nodetype ntype
+   show-nodedef [env [nodetype]]
+   delete-node fqdn
+
+ Other commands:
+   version
+   repl
+
+[0;0m
+[0;31mmessaging.iris> [0;0m[0;31mmessaging.iris> [0;0ml[0;31mmessaging.iris> [0;0mli[0;31mmessaging.iris> [0;0mlis[0;31mmessaging.iris> [0;0mlist[0;31mmessaging.iris> [0;0mlist-[0;31mmessaging.iris> [0;0mlist-e[0;31mmessaging.iris> [0;0mlist-en[0;31mmessaging.iris> [0;0mlist-env
+[0;34m[0;32menvironments:
+    - _default
+[0;0m
+[0;31mmessaging.iris> [0;0m[0;31mmessaging.iris> [0;0ms[0;31mmessaging.iris> [0;0msh[0;31mmessaging.iris> [0;0msho[0;31mmessaging.iris> [0;0mshow[0;31mmessaging.iris> [0;0mshow-[0;31mmessaging.iris> [0;0mshow-d[0;31mmessaging.iris> [0;0mshow-do[0;31mmessaging.iris> [0;0mshow-dom[0;31mmessaging.iris> [0;0mshow-doma[0;31mmessaging.iris> [0;0mshow-domai[0;31mmessaging.iris> [0;0mshow-domain
+[0;34m[0;32mdomain:
+    name: messaging.iris
+    roles:
+        - name: messaging.iris:role.admin
+          members: [yby.roth, yby.pearish, yby.boynton, yby.jknobel, yby.veeru, yby.atanu]
+        - name: messaging.iris:role.user
+          members: []
+        - name: messaging.iris:role.superuser
+          members: []
+        - name: messaging.iris:role.vip_admin
+          members: [yby.jknobel, yby.beecher, yby.chays, yby.cmohan, yby.drifter, yby.edasseri, yby.hallight, yby.ignatb, yby.jagd, yby.jakilpat, yby.jamesali, yby.jsummers, yby.jvangaas, yby.kareem, yby.kkevin, yby.madhuj, yby.mcgowane, yby.nevin, yby.pks, yby.shailv, yby.skarale, yby.spujani, yby.ssaroha, yby.stoneyu, yby.sutha, yby.thorve, yby.vgade, yby.wraney, yby.veeru]
+        - name: messaging.iris:role.sys_network_super_vip_admin
+          trust: sys.network
+    policies:
+        - name: messaging.iris:policy.admin
+          assertions:
+            - grant * to messaging.iris:role.admin on messaging.iris:*
+        - name: messaging.iris:policy.user
+          assertions:
+            - grant node_user to messaging.iris:role.user on messaging.iris:node.*
+        - name: messaging.iris:policy.superuser
+          assertions:
+            - grant node_sudo to messaging.iris:role.superuser on messaging.iris:node.*
+        - name: messaging.iris:policy.vip_admin
+          assertions:
+            - grant * to messaging.iris:role.vip_admin on messaging.iris:*
+        - name: messaging.iris:policy.sys_network_super_vip_admin
+          assertions:
+            - grant * to messaging.iris:role.sys_network_super_vip_admin on messaging.iris:*
+    org:
+        name: messaging_iris
+        chefServer: https://chef.ops.yahoo.com/organizations/messaging_iris
+        validatorKey: __suppressed__
+    environments: [_default]
+[0;0m
+[0;31mmessaging.iris> [0;0m[0;31mmessaging.iris> [0;0mA[0;31mmessaging.iris> [0;0m [1D[0;31mmessaging.iris> [0;0ml[0;31mmessaging.iris> [0;0mli[0;31mmessaging.iris> [0;0mlis[0;31mmessaging.iris> [0;0mlist[0;31mmessaging.iris> [0;0mlist-[0;31mmessaging.iris> [0;0mlist-p[0;31mmessaging.iris> [0;0mlist-pr[0;31mmessaging.iris> [0;0mlist-pro[0;31mmessaging.iris> [0;0mlist-prof[0;31mmessaging.iris> [0;0mlist-profi[0;31mmessaging.iris> [0;0mlist-profil[0;31mmessaging.iris> [0;0mlist-profile
+[0;34m[0;32mprofiles:
+    - _default
+[0;0m
+[0;31mmessaging.iris> [0;0m[0;31mmessaging.iris> [0;0me[0;31mmessaging.iris> [0;0mex[0;31mmessaging.iris> [0;0mexp[0;31mmessaging.iris> [0;0mexpo[0;31mmessaging.iris> [0;0mexpor[0;31mmessaging.iris> [0;0mexport[0;31mmessaging.iris> [0;0mexport-[0;31mmessaging.iris> [0;0mexport-d[0;31mmessaging.iris> [0;0mexport-do[0;31mmessaging.iris> [0;0mexport-dom[0;31mmessaging.iris> [0;0mexport-doma[0;31mmessaging.iris> [0;0mexport-domai[0;31mmessaging.iris> [0;0mexport-domain
+[0;34m[0;32m Domain commands:
+   list-domain [prefix]
+   show-domain [domain]
+   add-domain domain [admin ...]
+   import-domain domain [file.yaml [admin ...]] - no file means stdin
+   export-domain domain [file.yaml] - no file means stdout
+   delete-domain domain
+   use-domain [domain or domain#profile]
+
+ Organization commands:
+   show-org
+   set-org validator.pem [chefname]
+   delete-org
+
+ Environment commands:
+   list-env [profile]
+   show-env env
+   add-env env [profile]
+   delete-env env
+
+ Profile commands:
+   list-profile
+   show-profile [profile]
+   add-profile profile [site ...]
+   delete-profile profile
+   show-profile-users [profile]
+   show-profile-superusers [profile]
+   push-profile profile
+
+ Policy commands:
+   list-policy
+   show-policy policy
+   set-policy policy [assertion]
+   add-assertion policy assertion
+   delete-policy policy
+   show-access action resource [alt_domain [alt_identity]]
+
+ Role commands:
+   list-role
+   show-role role
+   add-delegated-role role trusted_domain
+   add-group-role role member [member ... ]
+   add-member group_role user_or_service [user_or_service ...]
+   delete-member group_role user_or_service [user_or_service ...]
+   delete-role role
+
+ Service commands:
+   list-services
+   show-service service
+   add-service service key_id identity_pubkey.pem|identity_key_ybase64
+   add-public-key service key_id identity_pubkey.pem|identity_key_ybase64
+   show-public-key service key_id
+   delete-public-key service key_id
+   delete-service service
+
+ Node commands:
+   list-nodetype
+   show-nodetype ntype
+   add-nodetype ntype runlist
+   delete-nodetype ntype
+   show-nodedef [env [nodetype]]
+   delete-node fqdn
+
+ Other commands:
+   version
+   repl
+
+[0;0m
+[0;31mmessaging.iris> [0;0m[0;31mmessaging.iris> [0;0mA[0;31mmessaging.iris> [0;0m [1D[0;31mmessaging.iris> [0;0me[0;31mmessaging.iris> [0;0mex[0;31mmessaging.iris> [0;0mexp[0;31mmessaging.iris> [0;0mexpo[0;31mmessaging.iris> [0;0mexpor[0;31mmessaging.iris> [0;0mexport[0;31mmessaging.iris> [0;0mexport-[0;31mmessaging.iris> [0;0mexport-d[0;31mmessaging.iris> [0;0mexport-do[0;31mmessaging.iris> [0;0mexport-dom[0;31mmessaging.iris> [0;0mexport-doma[0;31mmessaging.iris> [0;0mexport-domai[0;31mmessaging.iris> [0;0mexport-domain[0;31mmessaging.iris> [0;0mexport-domain [0;31mmessaging.iris> [0;0mexport-domain m[0;31mmessaging.iris> [0;0mexport-domain me[0;31mmessaging.iris> [0;0mexport-domain mes[0;31mmessaging.iris> [0;0mexport-domain mess[0;31mmessaging.iris> [0;0mexport-domain messa[0;31mmessaging.iris> [0;0mexport-domain messag[0;31mmessaging.iris> [0;0mexport-domain messagi[0;31mmessaging.iris> [0;0mexport-domain messagin[0;31mmessaging.iris> [0;0mexport-domain messaging[0;31mmessaging.iris> [0;0mexport-domain messaging.[0;31mmessaging.iris> [0;0mexport-domain messaging.i[0;31mmessaging.iris> [0;0mexport-domain messaging.ir[0;31mmessaging.iris> [0;0mexport-domain messaging.iri[0;31mmessaging.iris> [0;0mexport-domain messaging.iris
+[0;34mdomain:
+    name: messaging.iris
+    roles:
+        - name: messaging.iris:role.admin
+          members: [yby.roth, yby.pearish, yby.boynton, yby.jknobel, yby.veeru, yby.atanu]
+        - name: messaging.iris:role.user
+          members: []
+        - name: messaging.iris:role.superuser
+          members: []
+        - name: messaging.iris:role.vip_admin
+          members: [yby.jknobel, yby.beecher, yby.chays, yby.cmohan, yby.drifter, yby.edasseri, yby.hallight, yby.ignatb, yby.jagd, yby.jakilpat, yby.jamesali, yby.jsummers, yby.jvangaas, yby.kareem, yby.kkevin, yby.madhuj, yby.mcgowane, yby.nevin, yby.pks, yby.shailv, yby.skarale, yby.spujani, yby.ssaroha, yby.stoneyu, yby.sutha, yby.thorve, yby.vgade, yby.wraney, yby.veeru]
+        - name: messaging.iris:role.sys_network_super_vip_admin
+          trust: sys.network
+    policies:
+        - name: messaging.iris:policy.admin
+          assertions:
+            - grant * to messaging.iris:role.admin on messaging.iris:*
+        - name: messaging.iris:policy.user
+          assertions:
+            - grant node_user to messaging.iris:role.user on messaging.iris:node.*
+        - name: messaging.iris:policy.superuser
+          assertions:
+            - grant node_sudo to messaging.iris:role.superuser on messaging.iris:node.*
+        - name: messaging.iris:policy.vip_admin
+          assertions:
+            - grant * to messaging.iris:role.vip_admin on messaging.iris:*
+        - name: messaging.iris:policy.sys_network_super_vip_admin
+          assertions:
+            - grant * to messaging.iris:role.sys_network_super_vip_admin on messaging.iris:*
+    org:
+        name: messaging_iris
+        chefServer: https://chef.ops.yahoo.com/organizations/messaging_iris
+        validatorKey: |
+            -----BEGIN RSA PRIVATE KEY-----
+            MIIEpAIBAAKCAQEAyt2JozGmwIpAgUHNNQ03lncU/zO6KwGQst0Wi8e+XkbRlRV1
+            T6XDcCPa00R9EGOVKdpllH1d7RUh6Wb5R71y9ZcVmI0kqS3SpIOObolswmc8E7Uo
+            +Vpvhs0boE0XuAEEclqK+AJvwiJdWFhAJb8aMlm3p2LlDcIj1nTGxi3tCWkOqe60
+            RwAyNA/d0K0dYV75nU5kceGLeCrLnkt5+PBWS04f+LlKtLlOWlhaoiNgRzegycq7
+            b019t4pBt9ffa2A64Mx5pPTiSuBWxu3BpWDSx4P76dg0WUm+Jv/djLtVh53Z8Wmk
+            +gMY2w0J1PEja4xZwM0uWjgx437dZa9RJpe/KQIDAQABAoIBABuzdpjvLbr65eYA
+            iznkTSPhrN9QO+qlcxHJeMurgcYz22iFHpi6pN5KNxZEMuOrBXJKnTZSjCHUkeXi
+            JsXyC6GXeN50332ugSXvxOI5J73ABQcX5Llv7Oy2U0BnZoa8tNO8o19MTeBvetmW
+            a2P8HWKkt5xGt8pSKTyeg4oKOWTgUgO3bWhyqVqHST6aedtyCYPZJ+iaDfeNBPJM
+            /1mFFLaKxyIYuQPLX9wExVBZqGmFVZ7vLNVkql/2jIZhsbrfNNW4dcoGSjJCegqb
+            oTicx6FdeCk5aKIkL7roTuefnU4kUaHfvz8nrdrFmX2jyN+h/R+38F/udz6bW44M
+            657gE+UCgYEA/dz6p11mvttxd1IiqSizPeGsqHcbaBVUxKHthpRzMKaeXE2TWLmR
+            o7eBysTxE9fCyg6kQK4R+iDULI6jbgF7Aet5voUtL9dwbHbiIpH7e9SvECCoI6Sk
+            I8qW/peleJG0d414IsnyDjFktz4ooBuffuGzuKOCEYoVs/yr7sQwkscCgYEAzJKr
+            TOiumLNtHibIsEwgVbJYFFLTc94aIBCJRWSIo+UQ3T8TqZd6hWENvAdy/BpjRTOs
+            79qQSCeprpvEj0M/8TcUyH+GH+JErqMSLVuZSD2bPDUpQs7/qPnqjL59P82dpAIg
+            cszcdmkjAjKftI+M1GouxN8qaC2gI5ATf8w6Lo8CgYBg2uqW6D/HGZpU1/V5bJnW
+            Rj/FlovSTjElRFKHQiQgr7FDriVFeKdkOyM95Z3E4FDlHmj0dHVPZS8OQO2BjvcL
+            aHfuhIkU87Fk8Iaegevc9uxDzvHXh31IWob5Y4oyUgT0h/kJ7Np5J8cxUnnVfDSC
+            CEK1c0ywvGpDXWeLlTajCQKBgQChgxLXr8VZLh/ydDBycEf/IMVFlnb3vdzmf+fA
+            77SpoUqFQy2k8cF72LpdP4xa2gKSOlBJNkg/j4D6KGUxrqinKxOvkG82cRBEyN6r
+            DOyiCnGrQVWIN6HFqTqzUBnW6+GQAVXZDUDqA+vt6kYI6mUHt6WhLYhvo8YRDck3
+            VuiApQKBgQCGJgnhBclOjwgmY5Pz6TBVScQkGHQk0V9IiqFRXirJGPqUExiF2YAy
+            es2JUmRf9gooLLzuNSycF9PshgaP76QRHDLv3SEoA0+16Kak5OsfzaOC3gOZaahm
+            X09zJC0Bb/VNogsYjRmosoCPbyL6OQt62UOxsJpPdxAXWL9rGi/FCQ==
+            -----END RSA PRIVATE KEY-----
+            
+    environments: [_default]
+
+[0;32m[0;0m
+[0;31mmessaging.iris> [0;0m[0;34m[0;32m[0;0m
+[0;31mmessaging.iris> [0;0m[0;34m[0;32m[0;0m
+[0;31mmessaging.iris> [0;0m[0;31mmessaging.iris> [0;0mp[0;31mmessaging.iris> [0;0mpu[0;31mmessaging.iris> [0;0mpus[0;31mmessaging.iris> [0;0mpush[0;31mmessaging.iris> [0;0mpush[0;31mmessaging.iris> [0;0mpus [1D[0;31mmessaging.iris> [0;0mpu [1D[0;31mmessaging.iris> [0;0mp [1D[0;31mmessaging.iris> [0;0m [1D[0;31mmessaging.iris> [0;0mh[0;31mmessaging.iris> [0;0mhe[0;31mmessaging.iris> [0;0mhel[0;31mmessaging.iris> [0;0mhelp
+[0;34m[0;32m Domain commands:
+   list-domain [prefix]
+   show-domain [domain]
+   add-domain domain [admin ...]
+   import-domain domain [file.yaml [admin ...]] - no file means stdin
+   export-domain domain [file.yaml] - no file means stdout
+   delete-domain domain
+   use-domain [domain or domain#profile]
+
+ Organization commands:
+   show-org
+   set-org validator.pem [chefname]
+   delete-org
+
+ Environment commands:
+   list-env [profile]
+   show-env env
+   add-env env [profile]
+   delete-env env
+
+ Profile commands:
+   list-profile
+   show-profile [profile]
+   add-profile profile [site ...]
+   delete-profile profile
+   show-profile-users [profile]
+   show-profile-superusers [profile]
+   push-profile profile
+
+ Policy commands:
+   list-policy
+   show-policy policy
+   set-policy policy [assertion]
+   add-assertion policy assertion
+   delete-policy policy
+   show-access action resource [alt_domain [alt_identity]]
+
+ Role commands:
+   list-role
+   show-role role
+   add-delegated-role role trusted_domain
+   add-group-role role member [member ... ]
+   add-member group_role user_or_service [user_or_service ...]
+   delete-member group_role user_or_service [user_or_service ...]
+   delete-role role
+
+ Service commands:
+   list-services
+   show-service service
+   add-service service key_id identity_pubkey.pem|identity_key_ybase64
+   add-public-key service key_id identity_pubkey.pem|identity_key_ybase64
+   show-public-key service key_id
+   delete-public-key service key_id
+   delete-service service
+
+ Node commands:
+   list-nodetype
+   show-nodetype ntype
+   add-nodetype ntype runlist
+   delete-nodetype ntype
+   show-nodedef [env [nodetype]]
+   delete-node fqdn
+
+ Other commands:
+   version
+   repl
+
+[0;0m
+[0;31mmessaging.iris> [0;0m[0;31mmessaging.iris> [0;0ms[0;31mmessaging.iris> [0;0msh[0;31mmessaging.iris> [0;0msho[0;31mmessaging.iris> [0;0mshow[0;31mmessaging.iris> [0;0mshow-[0;31mmessaging.iris> [0;0mshow-p[0;31mmessaging.iris> [0;0mshow-pr[0;31mmessaging.iris> [0;0mshow-pro[0;31mmessaging.iris> [0;0mshow-prof[0;31mmessaging.iris> [0;0mshow-profi[0;31mmessaging.iris> [0;0mshow-profil[0;31mmessaging.iris> [0;0mshow-profile[0;31mmessaging.iris> [0;0mshow-profile 
+[0;34m[0;32mprofile:
+    domain: messaging.iris
+    name: 
+[0;0m
+[0;31mmessaging.iris> [0;0m[0;31mmessaging.iris> [0;0mA[0;31mmessaging.iris> [0;0mA [0;31mmessaging.iris> [0;0mA [1D[0;31mmessaging.iris> [0;0m [1D[0;31mmessaging.iris> [0;0ms[0;31mmessaging.iris> [0;0msh[0;31mmessaging.iris> [0;0msho[0;31mmessaging.iris> [0;0mshow[0;31mmessaging.iris> [0;0mshow-[0;31mmessaging.iris> [0;0mshow-p[0;31mmessaging.iris> [0;0mshow-pr[0;31mmessaging.iris> [0;0mshow-pro[0;31mmessaging.iris> [0;0mshow-prof[0;31mmessaging.iris> [0;0mshow-profi[0;31mmessaging.iris> [0;0mshow-profil[0;31mmessaging.iris> [0;0mshow-profile[0;31mmessaging.iris> [0;0mshow-profile [0;31mmessaging.iris> [0;0mshow-profile _[0;31mmessaging.iris> [0;0mshow-profile _d[0;31mmessaging.iris> [0;0mshow-profile _de[0;31mmessaging.iris> [0;0mshow-profile _def[0;31mmessaging.iris> [0;0mshow-profile _defa[0;31mmessaging.iris> [0;0mshow-profile _defau[0;31mmessaging.iris> [0;0mshow-profile _defaul[0;31mmessaging.iris> [0;0mshow-profile _default
+[0;34m[0;32mprofile:
+    domain: messaging.iris
+    name: _default
+[0;0m
+[0;31mmessaging.iris> [0;0m[0;31mmessaging.iris> [0;0mp[0;31mmessaging.iris> [0;0mpu[0;31mmessaging.iris> [0;0mpus[0;31mmessaging.iris> [0;0mpush[0;31mmessaging.iris> [0;0mpush-[0;31mmessaging.iris> [0;0mpush-p[0;31mmessaging.iris> [0;0mpush-pr[0;31mmessaging.iris> [0;0mpush-pro[0;31mmessaging.iris> [0;0mpush-prof[0;31mmessaging.iris> [0;0mpush-profi[0;31mmessaging.iris> [0;0mpush-profil[0;31mmessaging.iris> [0;0mpush-profile[0;31mmessaging.iris> [0;0mpush-profile [0;31mmessaging.iris> [0;0mpush-profile _[0;31mmessaging.iris> [0;0mpush-profile _d[0;31mmessaging.iris> [0;0mpush-profile _de[0;31mmessaging.iris> [0;0mpush-profile _def[0;31mmessaging.iris> [0;0mpush-profile _defa[0;31mmessaging.iris> [0;0mpush-profile _defau[0;31mmessaging.iris> [0;0mpush-profile _defaul[0;31mmessaging.iris> [0;0mpush-profile _default
+[0;34m[pushing data for messaging.iris/_default to Chef]
+[0;31m *** Both users and superusers are empty for this profile. domain=messaging.iris, profile=_default [0;0m
+[0;31mmessaging.iris> [0;0m[0;31mmessaging.iris> [0;0mh[0;31mmessaging.iris> [0;0mhe[0;31mmessaging.iris> [0;0mhel[0;31mmessaging.iris> [0;0mhelp
+[0;34m[0;32m Domain commands:
+   list-domain [prefix]
+   show-domain [domain]
+   add-domain domain [admin ...]
+   import-domain domain [file.yaml [admin ...]] - no file means stdin
+   export-domain domain [file.yaml] - no file means stdout
+   delete-domain domain
+   use-domain [domain or domain#profile]
+
+ Organization commands:
+   show-org
+   set-org validator.pem [chefname]
+   delete-org
+
+ Environment commands:
+   list-env [profile]
+   show-env env
+   add-env env [profile]
+   delete-env env
+
+ Profile commands:
+   list-profile
+   show-profile [profile]
+   add-profile profile [site ...]
+   delete-profile profile
+   show-profile-users [profile]
+   show-profile-superusers [profile]
+   push-profile profile
+
+ Policy commands:
+   list-policy
+   show-policy policy
+   set-policy policy [assertion]
+   add-assertion policy assertion
+   delete-policy policy
+   show-access action resource [alt_domain [alt_identity]]
+
+ Role commands:
+   list-role
+   show-role role
+   add-delegated-role role trusted_domain
+   add-group-role role member [member ... ]
+   add-member group_role user_or_service [user_or_service ...]
+   delete-member group_role user_or_service [user_or_service ...]
+   delete-role role
+
+ Service commands:
+   list-services
+   show-service service
+   add-service service key_id identity_pubkey.pem|identity_key_ybase64
+   add-public-key service key_id identity_pubkey.pem|identity_key_ybase64
+   show-public-key service key_id
+   delete-public-key service key_id
+   delete-service service
+
+ Node commands:
+   list-nodetype
+   show-nodetype ntype
+   add-nodetype ntype runlist
+   delete-nodetype ntype
+   show-nodedef [env [nodetype]]
+   delete-node fqdn
+
+ Other commands:
+   version
+   repl
+
+[0;0m
+[0;31mmessaging.iris> [0;0m[0;31mmessaging.iris> [0;0ma[0;31mmessaging.iris> [0;0mad[0;31mmessaging.iris> [0;0madd[0;31mmessaging.iris> [0;0madd-[0;31mmessaging.iris> [0;0madd-m[0;31mmessaging.iris> [0;0madd-me[0;31mmessaging.iris> [0;0madd-mem[0;31mmessaging.iris> [0;0madd-memb[0;31mmessaging.iris> [0;0madd-membe[0;31mmessaging.iris> [0;0madd-member[0;31mmessaging.iris> [0;0madd-member [0;31mmessaging.iris> [0;0madd-member s[0;31mmessaging.iris> [0;0madd-member su[0;31mmessaging.iris> [0;0madd-member sup[0;31mmessaging.iris> [0;0madd-member supe[0;31mmessaging.iris> [0;0madd-member super[0;31mmessaging.iris> [0;0madd-member superu[0;31mmessaging.iris> [0;0madd-member superus[0;31mmessaging.iris> [0;0madd-member superuse[0;31mmessaging.iris> [0;0madd-member superuser[0;31mmessaging.iris> [0;0madd-member superuser [0;31mmessaging.iris> [0;0madd-member superuser v[0;31mmessaging.iris> [0;0madd-member superuser ve[0;31mmessaging.iris> [0;0madd-member superuser vee[0;31mmessaging.iris> [0;0madd-member superuser veer[0;31mmessaging.iris> [0;0madd-member superuser veeru[0;31mmessaging.iris> [0;0madd-member superuser veeru [0;31mmessaging.iris> [0;0madd-member superuser veeru a[0;31mmessaging.iris> [0;0madd-member superuser veeru at[0;31mmessaging.iris> [0;0madd-member superuser veeru ata[0;31mmessaging.iris> [0;0madd-member superuser veeru atan[0;31mmessaging.iris> [0;0madd-member superuser veeru atanu
+[0;34m[0;32m[Added to messaging.iris:role.superuser: yby.veeru,yby.atanu][0;0m
+[0;31mmessaging.iris> [0;0m[0;31mmessaging.iris> [0;0ms[0;31mmessaging.iris> [0;0msh[0;31mmessaging.iris> [0;0msho[0;31mmessaging.iris> [0;0mshow[0;31mmessaging.iris> [0;0mshow-[0;31mmessaging.iris> [0;0mshow-d[0;31mmessaging.iris> [0;0mshow-do[0;31mmessaging.iris> [0;0mshow-dom[0;31mmessaging.iris> [0;0mshow-doma[0;31mmessaging.iris> [0;0mshow-domai[0;31mmessaging.iris> [0;0mshow-domain
+[0;34m[0;32mdomain:
+    name: messaging.iris
+    roles:
+        - name: messaging.iris:role.admin
+          members: [yby.roth, yby.pearish, yby.boynton, yby.jknobel, yby.veeru, yby.atanu]
+        - name: messaging.iris:role.user
+          members: []
+        - name: messaging.iris:role.superuser
+          members: [yby.veeru, yby.atanu]
+        - name: messaging.iris:role.vip_admin
+          members: [yby.jknobel, yby.beecher, yby.chays, yby.cmohan, yby.drifter, yby.edasseri, yby.hallight, yby.ignatb, yby.jagd, yby.jakilpat, yby.jamesali, yby.jsummers, yby.jvangaas, yby.kareem, yby.kkevin, yby.madhuj, yby.mcgowane, yby.nevin, yby.pks, yby.shailv, yby.skarale, yby.spujani, yby.ssaroha, yby.stoneyu, yby.sutha, yby.thorve, yby.vgade, yby.wraney, yby.veeru]
+        - name: messaging.iris:role.sys_network_super_vip_admin
+          trust: sys.network
+    policies:
+        - name: messaging.iris:policy.admin
+          assertions:
+            - grant * to messaging.iris:role.admin on messaging.iris:*
+        - name: messaging.iris:policy.user
+          assertions:
+            - grant node_user to messaging.iris:role.user on messaging.iris:node.*
+        - name: messaging.iris:policy.superuser
+          assertions:
+            - grant node_sudo to messaging.iris:role.superuser on messaging.iris:node.*
+        - name: messaging.iris:policy.vip_admin
+          assertions:
+            - grant * to messaging.iris:role.vip_admin on messaging.iris:*
+        - name: messaging.iris:policy.sys_network_super_vip_admin
+          assertions:
+            - grant * to messaging.iris:role.sys_network_super_vip_admin on messaging.iris:*
+    org:
+        name: messaging_iris
+        chefServer: https://chef.ops.yahoo.com/organizations/messaging_iris
+        validatorKey: __suppressed__
+    environments: [_default]
+[0;0m
+[0;31mmessaging.iris> [0;0m[0;34m[0;32m[0;0m
+[0;31mmessaging.iris> [0;0m[0;34m[0;32m[0;0m
+[0;31mmessaging.iris> [0;0m[0;31mmessaging.iris> [0;0mp[0;31mmessaging.iris> [0;0mps[0;31mmessaging.iris> [0;0mp [1D[0;31mmessaging.iris> [0;0mps[0;31mmessaging.iris> [0;0mp [1D[0;31mmessaging.iris> [0;0mpu[0;31mmessaging.iris> [0;0mpus[0;31mmessaging.iris> [0;0mpush[0;31mmessaging.iris> [0;0mpush-[0;31mmessaging.iris> [0;0mpush-p[0;31mmessaging.iris> [0;0mpush-pr[0;31mmessaging.iris> [0;0mpush-pro[0;31mmessaging.iris> [0;0mpush-prof[0;31mmessaging.iris> [0;0mpush-profi[0;31mmessaging.iris> [0;0mpush-profil[0;31mmessaging.iris> [0;0mpush-profile[0;31mmessaging.iris> [0;0mpush-profile [0;31mmessaging.iris> [0;0mpush-profile _[0;31mmessaging.iris> [0;0mpush-profile _d[0;31mmessaging.iris> [0;0mpush-profile _de[0;31mmessaging.iris> [0;0mpush-profile _def[0;31mmessaging.iris> [0;0mpush-profile _defu[0;31mmessaging.iris> [0;0mpush-profile _def [1D[0;31mmessaging.iris> [0;0mpush-profile _defa[0;31mmessaging.iris> [0;0mpush-profile _defau[0;31mmessaging.iris> [0;0mpush-profile _defaul[0;31mmessaging.iris> [0;0mpush-profile _default
+[0;34m[pushing data for messaging.iris/_default to Chef]
+[0;31m *** Whoops: Non 200 code returned from Chef Get url=https://chef.ops.yahoo.com/organizations/messaging_iris/data, code=403 [0;0m
+[0;31mmessaging.iris> [0;0m[0;31mmessaging.iris> [0;0mA[0;31mmessaging.iris> [0;0m [1D[0;31mmessaging.iris> [0;0mh[0;31mmessaging.iris> [0;0mhe[0;31mmessaging.iris> [0;0mhel[0;31mmessaging.iris> [0;0mhelp
+[0;34m[0;32m Domain commands:
+   list-domain [prefix]
+   show-domain [domain]
+   add-domain domain [admin ...]
+   import-domain domain [file.yaml [admin ...]] - no file means stdin
+   export-domain domain [file.yaml] - no file means stdout
+   delete-domain domain
+   use-domain [domain or domain#profile]
+
+ Organization commands:
+   show-org
+   set-org validator.pem [chefname]
+   delete-org
+
+ Environment commands:
+   list-env [profile]
+   show-env env
+   add-env env [profile]
+   delete-env env
+
+ Profile commands:
+   list-profile
+   show-profile [profile]
+   add-profile profile [site ...]
+   delete-profile profile
+   show-profile-users [profile]
+   show-profile-superusers [profile]
+   push-profile profile
+
+ Policy commands:
+   list-policy
+   show-policy policy
+   set-policy policy [assertion]
+   add-assertion policy assertion
+   delete-policy policy
+   show-access action resource [alt_domain [alt_identity]]
+
+ Role commands:
+   list-role
+   show-role role
+   add-delegated-role role trusted_domain
+   add-group-role role member [member ... ]
+   add-member group_role user_or_service [user_or_service ...]
+   delete-member group_role user_or_service [user_or_service ...]
+   delete-role role
+
+ Service commands:
+   list-services
+   show-service service
+   add-service service key_id identity_pubkey.pem|identity_key_ybase64
+   add-public-key service key_id identity_pubkey.pem|identity_key_ybase64
+   show-public-key service key_id
+   delete-public-key service key_id
+   delete-service service
+
+ Node commands:
+   list-nodetype
+   show-nodetype ntype
+   add-nodetype ntype runlist
+   delete-nodetype ntype
+   show-nodedef [env [nodetype]]
+   delete-node fqdn
+
+ Other commands:
+   version
+   repl
+
+[0;0m
+[0;31mmessaging.iris> [0;0m[0;34m[0;32m[0;0m
+[0;31mmessaging.iris> [0;0m[0;34m[0;32m[0;0m
+[0;31mmessaging.iris> [0;0m[0;34m[0;32m[0;0m
+[0;31mmessaging.iris> [0;0m[0;31mmessaging.iris> [0;0ms[0;31mmessaging.iris> [0;0mse[0;31mmessaging.iris> [0;0mser[0;31mmessaging.iris> [0;0mser-[0;31mmessaging.iris> [0;0mser-o[0;31mmessaging.iris> [0;0mser- [1D[0;31mmessaging.iris> [0;0mser [1D[0;31mmessaging.iris> [0;0mse [1D[0;31mmessaging.iris> [0;0mset[0;31mmessaging.iris> [0;0mset-[0;31mmessaging.iris> [0;0mset-o[0;31mmessaging.iris> [0;0mset-or[0;31mmessaging.iris> [0;0mset-org[0;31mmessaging.iris> [0;0mset-org [0;31mmessaging.iris> [0;0mset-org v[0;31mmessaging.iris> [0;0mset-org va[0;31mmessaging.iris> [0;0mset-org val[0;31mmessaging.iris> [0;0mset-org vali[0;31mmessaging.iris> [0;0mset-org vali[0;31mmessaging.iris> [0;0mset-org val [1D[0;31mmessaging.iris> [0;0mset-org va [1D[0;31mmessaging.iris> [0;0mset-org v [1D[0;31mmessaging.iris> [0;0mset-org  [1D[0;31mmessaging.iris> [0;0mset-org v[0;31mmessaging.iris> [0;0mset-org va[0;31mmessaging.iris> [0;0mset-org val[0;31mmessaging.iris> [0;0mset-org vali[0;31mmessaging.iris> [0;0mset-org valid[0;31mmessaging.iris> [0;0mset-org valida[0;31mmessaging.iris> [0;0mset-org validat[0;31mmessaging.iris> [0;0mset-org validato[0;31mmessaging.iris> [0;0mset-org validator[0;31mmessaging.iris> [0;0mset-org validator.[0;31mmessaging.iris> [0;0mset-org validator.p[0;31mmessaging.iris> [0;0mset-org validator.pe[0;31mmessaging.iris> [0;0mset-org validator.pem[0;31mmessaging.iris> [0;0mset-org validator.pemv[0;31mmessaging.iris> [0;0mset-org validator.pemva[0;31mmessaging.iris> [0;0mset-org validator.pemv [1D[0;31mmessaging.iris> [0;0mset-org validator.pem [1D
+[0;34m[0;32morganization:
+    name: messaging_iris
+    domain: messaging.iris
+    chefServer: https://chef.ops.yahoo.com/organizations/messaging_iris
+    validatorKey: __suppressed__
+[0;0m
+[0;31mmessaging.iris> [0;0m[0;31mmessaging.iris> [0;0mA[0;31mmessaging.iris> [0;0mAA[0;31mmessaging.iris> [0;0mAAA[0;31mmessaging.iris> [0;0mAA [1D[0;31mmessaging.iris> [0;0mA [1D[0;31mmessaging.iris> [0;0m [1D[0;31mmessaging.iris> [0;0mp[0;31mmessaging.iris> [0;0mpu[0;31mmessaging.iris> [0;0mpus[0;31mmessaging.iris> [0;0mpush[0;31mmessaging.iris> [0;0mpush-[0;31mmessaging.iris> [0;0mpush-p[0;31mmessaging.iris> [0;0mpush-pr[0;31mmessaging.iris> [0;0mpush-pro[0;31mmessaging.iris> [0;0mpush-prof[0;31mmessaging.iris> [0;0mpush-profi[0;31mmessaging.iris> [0;0mpush-profil[0;31mmessaging.iris> [0;0mpush-profile[0;31mmessaging.iris> [0;0mpush-profile [0;31mmessaging.iris> [0;0mpush-profile _[0;31mmessaging.iris> [0;0mpush-profile _d[0;31mmessaging.iris> [0;0mpush-profile _de[0;31mmessaging.iris> [0;0mpush-profile _def[0;31mmessaging.iris> [0;0mpush-profile _defu[0;31mmessaging.iris> [0;0mpush-profile _def [1D[0;31mmessaging.iris> [0;0mpush-profile _defa[0;31mmessaging.iris> [0;0mpush-profile _defau[0;31mmessaging.iris> [0;0mpush-profile _defaul[0;31mmessaging.iris> [0;0mpush-profile _default
+[0;34m[pushing data for messaging.iris/_default to Chef]
+[0;31m *** Whoops: Non 200 code returned from Chef Get url=https://chef.ops.yahoo.com/organizations/messaging_iris/data, code=403 [0;0m
+[0;31mmessaging.iris> [0;0m[0;31mmessaging.iris> [0;0mA[0;31mmessaging.iris> [0;0m [1D
+[1]+  Stopped                 ./pintail -v -d messaging.iris repl
+bash-3.2$ [?[K[Kfg
+./pintail -v -d messaging.iris repl
+panic: Problem reading stdin
+
+goroutine 16 [running]:
+github.com/boynton/repl.func·001()
+	/var/builds/workspace/36560-v3-component/BUILD_CONTAINER/gocontainer/label/DOCKER-LOW/app_root/src/github.com/boynton/repl/repl.go:28 +0x115
+created by github.com/boynton/repl.REPL
+	/var/builds/workspace/36560-v3-component/BUILD_CONTAINER/gocontainer/label/DOCKER-LOW/app_root/src/github.com/boynton/repl/repl.go:36 +0x6e
+
+goroutine 1 [chan receive]:
+github.com/boynton/repl.repl(0x220861d6f8, 0x208658e70, 0x0, 0x0)
+	/var/builds/workspace/36560-v3-component/BUILD_CONTAINER/gocontainer/label/DOCKER-LOW/app_root/src/github.com/boynton/repl/repl.go:513 +0x1f2
+github.com/boynton/repl.REPL(0x220861d6f8, 0x208658e70, 0x0, 0x0)
+	/var/builds/workspace/36560-v3-component/BUILD_CONTAINER/gocontainer/label/DOCKER-LOW/app_root/src/github.com/boynton/repl/repl.go:40 +0xdd
+main.(*Pintail).repl(0x208658e70, 0x4, 0x0, 0x0)
+	/var/builds/workspace/36560-v3-component/BUILD_CONTAINER/gocontainer/label/DOCKER-LOW/app_root/src/go.corp.yahoo.com/athens/pintail/repl.go:45 +0x61
+main.main()
+	/var/builds/workspace/36560-v3-component/BUILD_CONTAINER/gocontainer/label/DOCKER-LOW/app_root/src/go.corp.yahoo.com/athens/pintail/main.go:649 +0xf48
+
+goroutine 5 [syscall, 27 minutes]:
+os/signal.loop()
+	/usr/local/go/src/os/signal/signal_unix.go:21 +0x1f
+created by os/signal.init·1
+	/usr/local/go/src/os/signal/signal_unix.go:27 +0x35
+
+goroutine 11 [select, 1 minutes]:
+net.func·019()
+	/usr/local/go/src/net/dnsclient_unix.go:241 +0x2f4
+created by net.loadConfig
+	/usr/local/go/src/net/dnsclient_unix.go:269 +0x20c
+bash-3.2$ 
+bash-3.2$ 
+bash-3.2$ 
+bash-3.2$ fg./pintail -v -d messaging.iris repl[K[K[K[Krepl
+[0;31mmessaging.iris> [0;0m[0;34m[0;32m[0;0m
+[0;31mmessaging.iris> [0;0m[0;34m[0;32m[0;0m
+[0;31mmessaging.iris> [0;0m[0;31mmessaging.iris> [0;0ms[0;31mmessaging.iris> [0;0msh[0;31mmessaging.iris> [0;0msho[0;31mmessaging.iris> [0;0mshow[0;31mmessaging.iris> [0;0mshow-[0;31mmessaging.iris> [0;0mshow-d[0;31mmessaging.iris> [0;0mshow-do[0;31mmessaging.iris> [0;0mshow-dom[0;31mmessaging.iris> [0;0mshow-domi[0;31mmessaging.iris> [0;0mshow-dom [1D[0;31mmessaging.iris> [0;0mshow-doma[0;31mmessaging.iris> [0;0mshow-domai[0;31mmessaging.iris> [0;0mshow-domain[0;31mmessaging.iris> [0;0mshow-domains
+[0;34m[0;31m *** Unrecognized command 'show-domains'. Type 'pintail' with no arguments to see usage information [0;0m
+[0;31mmessaging.iris> [0;0m[0;31mmessaging.iris> [0;0ms[0;31mmessaging.iris> [0;0msh[0;31mmessaging.iris> [0;0msho[0;31mmessaging.iris> [0;0mshow[0;31mmessaging.iris> [0;0mshow-[0;31mmessaging.iris> [0;0mshow-d[0;31mmessaging.iris> [0;0mshow-di[0;31mmessaging.iris> [0;0mshow-dim[0;31mmessaging.iris> [0;0mshow-di [1D[0;31mmessaging.iris> [0;0mshow-d [1D[0;31mmessaging.iris> [0;0mshow-do[0;31mmessaging.iris> [0;0mshow-dom[0;31mmessaging.iris> [0;0mshow-domi[0;31mmessaging.iris> [0;0mshow-domin
+[0;34m[0;31m *** Unrecognized command 'show-domin'. Type 'pintail' with no arguments to see usage information [0;0m
+[0;31mmessaging.iris> [0;0m[0;31mmessaging.iris> [0;0mA[0;31mmessaging.iris> [0;0m [1D[0;31mmessaging.iris> [0;0ms[0;31mmessaging.iris> [0;0msh[0;31mmessaging.iris> [0;0msho[0;31mmessaging.iris> [0;0mshow[0;31mmessaging.iris> [0;0mshow-[0;31mmessaging.iris> [0;0mshow-d[0;31mmessaging.iris> [0;0mshow-do[0;31mmessaging.iris> [0;0mshow-dom[0;31mmessaging.iris> [0;0mshow-doma[0;31mmessaging.iris> [0;0mshow-domai[0;31mmessaging.iris> [0;0mshow-domain
+[0;34m[0;32mdomain:
+    name: messaging.iris
+    roles:
+        - name: messaging.iris:role.admin
+          members: [yby.roth, yby.pearish, yby.boynton, yby.jknobel, yby.veeru, yby.atanu]
+        - name: messaging.iris:role.user
+          members: []
+        - name: messaging.iris:role.superuser
+          members: [yby.veeru, yby.atanu]
+        - name: messaging.iris:role.vip_admin
+          members: [yby.jknobel, yby.beecher, yby.chays, yby.cmohan, yby.drifter, yby.edasseri, yby.hallight, yby.ignatb, yby.jagd, yby.jakilpat, yby.jamesali, yby.jsummers, yby.jvangaas, yby.kareem, yby.kkevin, yby.madhuj, yby.mcgowane, yby.nevin, yby.pks, yby.shailv, yby.skarale, yby.spujani, yby.ssaroha, yby.stoneyu, yby.sutha, yby.thorve, yby.vgade, yby.wraney, yby.veeru]
+        - name: messaging.iris:role.sys_network_super_vip_admin
+          trust: sys.network
+    policies:
+        - name: messaging.iris:policy.admin
+          assertions:
+            - grant * to messaging.iris:role.admin on messaging.iris:*
+        - name: messaging.iris:policy.user
+          assertions:
+            - grant node_user to messaging.iris:role.user on messaging.iris:node.*
+        - name: messaging.iris:policy.superuser
+          assertions:
+            - grant node_sudo to messaging.iris:role.superuser on messaging.iris:node.*
+        - name: messaging.iris:policy.vip_admin
+          assertions:
+            - grant * to messaging.iris:role.vip_admin on messaging.iris:*
+        - name: messaging.iris:policy.sys_network_super_vip_admin
+          assertions:
+            - grant * to messaging.iris:role.sys_network_super_vip_admin on messaging.iris:*
+    org:
+        name: messaging_iris
+        chefServer: https://chef.ops.yahoo.com/organizations/messaging_iris
+        validatorKey: __suppressed__
+    environments: [_default]
+[0;0m
+[0;31mmessaging.iris> [0;0m[0;31mmessaging.iris> [0;0mh[0;31mmessaging.iris> [0;0mhe[0;31mmessaging.iris> [0;0mhel[0;31mmessaging.iris> [0;0mhelp
+[0;34m[0;32m Domain commands:
+   list-domain [prefix]
+   show-domain [domain]
+   add-domain domain [admin ...]
+   import-domain domain [file.yaml [admin ...]] - no file means stdin
+   export-domain domain [file.yaml] - no file means stdout
+   delete-domain domain
+   use-domain [domain or domain#profile]
+
+ Organization commands:
+   show-org
+   set-org validator.pem [chefname]
+   delete-org
+
+ Environment commands:
+   list-env [profile]
+   show-env env
+   add-env env [profile]
+   delete-env env
+
+ Profile commands:
+   list-profile
+   show-profile [profile]
+   add-profile profile [site ...]
+   delete-profile profile
+   show-profile-users [profile]
+   show-profile-superusers [profile]
+   push-profile profile
+
+ Policy commands:
+   list-policy
+   show-policy policy
+   set-policy policy [assertion]
+   add-assertion policy assertion
+   delete-policy policy
+   show-access action resource [alt_domain [alt_identity]]
+
+ Role commands:
+   list-role
+   show-role role
+   add-delegated-role role trusted_domain
+   add-group-role role member [member ... ]
+   add-member group_role user_or_service [user_or_service ...]
+   delete-member group_role user_or_service [user_or_service ...]
+   delete-role role
+
+ Service commands:
+   list-services
+   show-service service
+   add-service service key_id identity_pubkey.pem|identity_key_ybase64
+   add-public-key service key_id identity_pubkey.pem|identity_key_ybase64
+   show-public-key service key_id
+   delete-public-key service key_id
+   delete-service service
+
+ Node commands:
+   list-nodetype
+   show-nodetype ntype
+   add-nodetype ntype runlist
+   delete-nodetype ntype
+   show-nodedef [env [nodetype]]
+   delete-node fqdn
+
+ Other commands:
+   version
+   repl
+
+[0;0m
+[0;31mmessaging.iris> [0;0m[0;34m[0;32m[0;0m
+[0;31mmessaging.iris> [0;0m[0;34m[0;32m[0;0m
+[0;31mmessaging.iris> [0;0m[0;31mmessaging.iris> [0;0ms[0;31mmessaging.iris> [0;0msh[0;31mmessaging.iris> [0;0msho[0;31mmessaging.iris> [0;0mshow[0;31mmessaging.iris> [0;0mshow-[0;31mmessaging.iris> [0;0mshow-p[0;31mmessaging.iris> [0;0mshow-pr[0;31mmessaging.iris> [0;0mshow-pro[0;31mmessaging.iris> [0;0mshow-prof[0;31mmessaging.iris> [0;0mshow-profi[0;31mmessaging.iris> [0;0mshow-profil[0;31mmessaging.iris> [0;0mshow-profile
+[0;34m[0;31m *** Bad command syntax. Type 'pintail help' to see help information [0;0m
+[0;31mmessaging.iris> [0;0m[0;31mmessaging.iris> [0;0mA[0;31mmessaging.iris> [0;0m [1D[0;31mmessaging.iris> [0;0ms[0;31mmessaging.iris> [0;0msh[0;31mmessaging.iris> [0;0msho[0;31mmessaging.iris> [0;0mshow[0;31mmessaging.iris> [0;0mshow-[0;31mmessaging.iris> [0;0mshow-p[0;31mmessaging.iris> [0;0mshow-pr[0;31mmessaging.iris> [0;0mshow-pro[0;31mmessaging.iris> [0;0mshow-prof[0;31mmessaging.iris> [0;0mshow-profi[0;31mmessaging.iris> [0;0mshow-profil[0;31mmessaging.iris> [0;0mshow-profile[0;31mmessaging.iris> [0;0mshow-profile [0;31mmessaging.iris> [0;0mshow-profile _[0;31mmessaging.iris> [0;0mshow-profile _d[0;31mmessaging.iris> [0;0mshow-profile _de[0;31mmessaging.iris> [0;0mshow-profile _def[0;31mmessaging.iris> [0;0mshow-profile _defa[0;31mmessaging.iris> [0;0mshow-profile _defau[0;31mmessaging.iris> [0;0mshow-profile _defaul[0;31mmessaging.iris> [0;0mshow-profile _default
+[0;34m[0;32mprofile:
+    domain: messaging.iris
+    name: _default
+[0;0m
+[0;31mmessaging.iris> [0;0m[0;34m[0;32m[0;0m
+[0;31mmessaging.iris> [0;0m[0;34m[0;32m[0;0m
+[0;31mmessaging.iris> [0;0m[0;34m[0;32m[0;0m
+[0;31mmessaging.iris> [0;0m[0;31mmessaging.iris> [0;0me[0;31mmessaging.iris> [0;0mep[0;31mmessaging.iris> [0;0me [1D[0;31mmessaging.iris> [0;0mex[0;31mmessaging.iris> [0;0mexp[0;31mmessaging.iris> [0;0mexpo[0;31mmessaging.iris> [0;0mexpor[0;31mmessaging.iris> [0;0mexport[0;31mmessaging.iris> [0;0mexport-[0;31mmessaging.iris> [0;0mexport-d[0;31mmessaging.iris> [0;0mexport-do[0;31mmessaging.iris> [0;0mexport-dom[0;31mmessaging.iris> [0;0mexport-doma[0;31mmessaging.iris> [0;0mexport-domai[0;31mmessaging.iris> [0;0mexport-domain
+[0;34m[0;32m Domain commands:
+   list-domain [prefix]
+   show-domain [domain]
+   add-domain domain [admin ...]
+   import-domain domain [file.yaml [admin ...]] - no file means stdin
+   export-domain domain [file.yaml] - no file means stdout
+   delete-domain domain
+   use-domain [domain or domain#profile]
+
+ Organization commands:
+   show-org
+   set-org validator.pem [chefname]
+   delete-org
+
+ Environment commands:
+   list-env [profile]
+   show-env env
+   add-env env [profile]
+   delete-env env
+
+ Profile commands:
+   list-profile
+   show-profile [profile]
+   add-profile profile [site ...]
+   delete-profile profile
+   show-profile-users [profile]
+   show-profile-superusers [profile]
+   push-profile profile
+
+ Policy commands:
+   list-policy
+   show-policy policy
+   set-policy policy [assertion]
+   add-assertion policy assertion
+   delete-policy policy
+   show-access action resource [alt_domain [alt_identity]]
+
+ Role commands:
+   list-role
+   show-role role
+   add-delegated-role role trusted_domain
+   add-group-role role member [member ... ]
+   add-member group_role user_or_service [user_or_service ...]
+   delete-member group_role user_or_service [user_or_service ...]
+   delete-role role
+
+ Service commands:
+   list-services
+   show-service service
+   add-service service key_id identity_pubkey.pem|identity_key_ybase64
+   add-public-key service key_id identity_pubkey.pem|identity_key_ybase64
+   show-public-key service key_id
+   delete-public-key service key_id
+   delete-service service
+
+ Node commands:
+   list-nodetype
+   show-nodetype ntype
+   add-nodetype ntype runlist
+   delete-nodetype ntype
+   show-nodedef [env [nodetype]]
+   delete-node fqdn
+
+ Other commands:
+   version
+   repl
+
+[0;0m
+[0;31mmessaging.iris> [0;0m[0;31mmessaging.iris> [0;0me[0;31mmessaging.iris> [0;0mex[0;31mmessaging.iris> [0;0mexp[0;31mmessaging.iris> [0;0mexpo[0;31mmessaging.iris> [0;0mexpor[0;31mmessaging.iris> [0;0mexport[0;31mmessaging.iris> [0;0mexport-[0;31mmessaging.iris> [0;0mexport-d[0;31mmessaging.iris> [0;0mexport-do[0;31mmessaging.iris> [0;0mexport-dom[0;31mmessaging.iris> [0;0mexport-doma[0;31mmessaging.iris> [0;0mexport-domai[0;31mmessaging.iris> [0;0mexport-domain[0;31mmessaging.iris> [0;0mexport-domain [0;31mmessaging.iris> [0;0mexport-domain m[0;31mmessaging.iris> [0;0mexport-domain me[0;31mmessaging.iris> [0;0mexport-domain mes[0;31mmessaging.iris> [0;0mexport-domain mess[0;31mmessaging.iris> [0;0mexport-domain messa[0;31mmessaging.iris> [0;0mexport-domain messag[0;31mmessaging.iris> [0;0mexport-domain messagi[0;31mmessaging.iris> [0;0mexport-domain messagin[0;31mmessaging.iris> [0;0mexport-domain messaging[0;31mmessaging.iris> [0;0mexport-domain messaging.[0;31mmessaging.iris> [0;0mexport-domain messaging.i[0;31mmessaging.iris> [0;0mexport-domain messaging.ir[0;31mmessaging.iris> [0;0mexport-domain messaging.iri[0;31mmessaging.iris> [0;0mexport-domain messaging.iris
+[0;34mdomain:
+    name: messaging.iris
+    roles:
+        - name: messaging.iris:role.admin
+          members: [yby.roth, yby.pearish, yby.boynton, yby.jknobel, yby.veeru, yby.atanu]
+        - name: messaging.iris:role.user
+          members: []
+        - name: messaging.iris:role.superuser
+          members: [yby.veeru, yby.atanu]
+        - name: messaging.iris:role.vip_admin
+          members: [yby.jknobel, yby.beecher, yby.chays, yby.cmohan, yby.drifter, yby.edasseri, yby.hallight, yby.ignatb, yby.jagd, yby.jakilpat, yby.jamesali, yby.jsummers, yby.jvangaas, yby.kareem, yby.kkevin, yby.madhuj, yby.mcgowane, yby.nevin, yby.pks, yby.shailv, yby.skarale, yby.spujani, yby.ssaroha, yby.stoneyu, yby.sutha, yby.thorve, yby.vgade, yby.wraney, yby.veeru]
+        - name: messaging.iris:role.sys_network_super_vip_admin
+          trust: sys.network
+    policies:
+        - name: messaging.iris:policy.admin
+          assertions:
+            - grant * to messaging.iris:role.admin on messaging.iris:*
+        - name: messaging.iris:policy.user
+          assertions:
+            - grant node_user to messaging.iris:role.user on messaging.iris:node.*
+        - name: messaging.iris:policy.superuser
+          assertions:
+            - grant node_sudo to messaging.iris:role.superuser on messaging.iris:node.*
+        - name: messaging.iris:policy.vip_admin
+          assertions:
+            - grant * to messaging.iris:role.vip_admin on messaging.iris:*
+        - name: messaging.iris:policy.sys_network_super_vip_admin
+          assertions:
+            - grant * to messaging.iris:role.sys_network_super_vip_admin on messaging.iris:*
+    org:
+        name: messaging_iris
+        chefServer: https://chef.ops.yahoo.com/organizations/messaging_iris
+        validatorKey: |
+            -----BEGIN RSA PRIVATE KEY-----
+            MIIEpAIBAAKCAQEAyt2JozGmwIpAgUHNNQ03lncU/zO6KwGQst0Wi8e+XkbRlRV1
+            T6XDcCPa00R9EGOVKdpllH1d7RUh6Wb5R71y9ZcVmI0kqS3SpIOObolswmc8E7Uo
+            +Vpvhs0boE0XuAEEclqK+AJvwiJdWFhAJb8aMlm3p2LlDcIj1nTGxi3tCWkOqe60
+            RwAyNA/d0K0dYV75nU5kceGLeCrLnkt5+PBWS04f+LlKtLlOWlhaoiNgRzegycq7
+            b019t4pBt9ffa2A64Mx5pPTiSuBWxu3BpWDSx4P76dg0WUm+Jv/djLtVh53Z8Wmk
+            +gMY2w0J1PEja4xZwM0uWjgx437dZa9RJpe/KQIDAQABAoIBABuzdpjvLbr65eYA
+            iznkTSPhrN9QO+qlcxHJeMurgcYz22iFHpi6pN5KNxZEMuOrBXJKnTZSjCHUkeXi
+            JsXyC6GXeN50332ugSXvxOI5J73ABQcX5Llv7Oy2U0BnZoa8tNO8o19MTeBvetmW
+            a2P8HWKkt5xGt8pSKTyeg4oKOWTgUgO3bWhyqVqHST6aedtyCYPZJ+iaDfeNBPJM
+            /1mFFLaKxyIYuQPLX9wExVBZqGmFVZ7vLNVkql/2jIZhsbrfNNW4dcoGSjJCegqb
+            oTicx6FdeCk5aKIkL7roTuefnU4kUaHfvz8nrdrFmX2jyN+h/R+38F/udz6bW44M
+            657gE+UCgYEA/dz6p11mvttxd1IiqSizPeGsqHcbaBVUxKHthpRzMKaeXE2TWLmR
+            o7eBysTxE9fCyg6kQK4R+iDULI6jbgF7Aet5voUtL9dwbHbiIpH7e9SvECCoI6Sk
+            I8qW/peleJG0d414IsnyDjFktz4ooBuffuGzuKOCEYoVs/yr7sQwkscCgYEAzJKr
+            TOiumLNtHibIsEwgVbJYFFLTc94aIBCJRWSIo+UQ3T8TqZd6hWENvAdy/BpjRTOs
+            79qQSCeprpvEj0M/8TcUyH+GH+JErqMSLVuZSD2bPDUpQs7/qPnqjL59P82dpAIg
+            cszcdmkjAjKftI+M1GouxN8qaC2gI5ATf8w6Lo8CgYBg2uqW6D/HGZpU1/V5bJnW
+            Rj/FlovSTjElRFKHQiQgr7FDriVFeKdkOyM95Z3E4FDlHmj0dHVPZS8OQO2BjvcL
+            aHfuhIkU87Fk8Iaegevc9uxDzvHXh31IWob5Y4oyUgT0h/kJ7Np5J8cxUnnVfDSC
+            CEK1c0ywvGpDXWeLlTajCQKBgQChgxLXr8VZLh/ydDBycEf/IMVFlnb3vdzmf+fA
+            77SpoUqFQy2k8cF72LpdP4xa2gKSOlBJNkg/j4D6KGUxrqinKxOvkG82cRBEyN6r
+            DOyiCnGrQVWIN6HFqTqzUBnW6+GQAVXZDUDqA+vt6kYI6mUHt6WhLYhvo8YRDck3
+            VuiApQKBgQCGJgnhBclOjwgmY5Pz6TBVScQkGHQk0V9IiqFRXirJGPqUExiF2YAy
+            es2JUmRf9gooLLzuNSycF9PshgaP76QRHDLv3SEoA0+16Kak5OsfzaOC3gOZaahm
+            X09zJC0Bb/VNogsYjRmosoCPbyL6OQt62UOxsJpPdxAXWL9rGi/FCQ==
+            -----END RSA PRIVATE KEY-----
+            
+    environments: [_default]
+
+[0;32m[0;0m
+[0;31mmessaging.iris> [0;0m[0;31mmessaging.iris> [0;0mq[0;31mmessaging.iris> [0;0mqu[0;31mmessaging.iris> [0;0mqui[0;31mmessaging.iris> [0;0mquit
+[0;34m[0;31m *** Unrecognized command 'quit'. Type 'pintail' with no arguments to see usage information [0;0m
+[0;31mmessaging.iris> [0;0m
+bash-3.2$ 
+bash-3.2$ 
+bash-3.2$ [4h(reverse-i-s[4learch)`':[C-': ./pintail -v -d messaging.iris repl[4hd[4l[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[14Pbash-3.2$[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[K[K[Kpush-prif[K[Kofile _deda[K[Kfailt[K[K[Kult
+[pushing data for messaging.iris/_default to Chef]
+*** Whoops: Non 200 code returned from Chef Get url=https://chef.ops.yahoo.com/organizations/messaging_iris/data, code=403
+bash-3.2$ 
